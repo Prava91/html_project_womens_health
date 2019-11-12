@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    min-height: 2000px;
+}
+
+.topnav {
+    font-family: 'Montserrat';
+    background-color: white;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.topnav a {
+    float: left;
+    color: #180268;
+    text-align: center;
+    margin-top: 53px;
+    margin-right: 25px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: condensed;
+    padding-bottom: 10px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: grey;
+    border-bottom: 2px solid rgb(216, 44, 110);
+}
+
+.topnav a.active {
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid rgb(216, 44, 110);
+}
+
+.logo-img {
+    width: 60;
+    height: 60;
+    float: left;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    padding: 6px;
+    margin-top: 35px;
+    margin-right: 200px;
+    background: white;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn {
+    background-color: white;
+    border: none;
+    font-family: 'Montserrat';
+    color: #180268;
+    font-size: 17px;
+    margin-top: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    font-stretch: condensed;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(240, 194, 194);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+.bg-img {
+    clear: both;
+    background-image: url("../img/healthyliving.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30% 90%;
+    margin-top: 15%;
+}
+
+.containerhome {
+    clear: both;
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    background-position: center;
+    background-color: #D6F0EA;
+}
+
+/* nutrition */
+
+.top-img {
+    clear: both;
+    background-image: url("../img/nutrition.png");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80% 160%;
+    margin-top: 15%;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.vitCimg {
+    display: block;
+    /* margin-left: auto; */
+    margin-left: 35%;
+    margin-right: auto;
+    width: 50%;
+}  
+
+p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+ol {
+
+    margin-left: 10%;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color:slategray;
+
+}
+li {
+    margin-bottom: 2%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    height: 400px;
+    background-color: #F5F5F5;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+
+/* .howmuch {
+    padding-right: 10px;
+} */
+
